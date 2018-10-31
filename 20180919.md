@@ -409,4 +409,8 @@ Solution: **yum install libibverbs-devel**
 	```
 	* Mellanox官网可以很容易找到针对ConnectX-3 Pro以上的[Mellanox DPDK Quick Start Guide](http://www.mellanox.com/related-docs/prod_software/MLNX_DPDK_Quick_Start_Guide_v16.11_1.5.pdf)，与此同时找不到针对ConnectX-3的DPDK Start Guide
 
+	* Mellanox官网找到的[dpdk指引](http://www.mellanox.com/page/products_dyn?product_family=209&mtag=pmd_for_dpdk)中说的  
+	The two Mellanox PMDs are mlx4 for **ConnectX®-3 Pro** Ethernet adapters, and mlx5 for Mellanox **ConnectX®-4/ConnectX®-4 Lx/ConnectX®-5/ConnectX®-5 Ex** Ethernet adapters. Mellanox PMDs supports bare metal, KVM and VMware SR-IOV on x86_64, Arm and Power8 architectures. 
+	这个包含的Connect系列已经很全了，ConnectX-3不在里面，应该就是不支持了。同时也找不到PMD for ConenctX-3
+
 
